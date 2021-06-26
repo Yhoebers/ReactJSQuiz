@@ -1,5 +1,11 @@
-const App = () => {
-    return <div>hello world</div>
-}
+import QuestionContainer from "./components/QuestionContainer";
 
-export default App
+const App = () => {
+  return (
+    <div>
+      <QuestionContainer />
+    </div>
+  );
+};
+
+export default App;
