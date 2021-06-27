@@ -1,9 +1,9 @@
-import QuestionContainer from "./components/QuestionContainer";
+import QuestionAnswerContainer from "./components/QuestionAnswerContainer";
 
 const App = () => {
   return (
     <div>
-      <QuestionContainer />
+      <QuestionAnswerContainer />
     </div>
   );
 };

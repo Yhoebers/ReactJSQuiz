@@ -1,5 +1,6 @@
 /*
-
+The questions are hold in an array of objects. Every object keeps an array of objects with potential answers.
+The boolean value determents if a answer is correct or not.
 */
 
 export const questions = [
