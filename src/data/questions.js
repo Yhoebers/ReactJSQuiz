@@ -1,6 +1,14 @@
-export const questions = {
-  id: 1,
-  question: "how tall is mount fuji",
-  choose: [34, 23, 45],
-  answer: 12,
-};
+/*
+
+*/
+
+export const questions = [
+  {
+    question: "how tall is james?",
+    answer: [
+      { answerText: "12m", isCorrect: false },
+      { answerText: "14m", isCorrect: true },
+      { answerText: "15m", isCorrect: false },
+    ],
+  },
+];
